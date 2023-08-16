@@ -10,9 +10,9 @@ export const Item = styled.li`
 
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 
-  &: not(: last-child) {
+  &:not(:last-child) {
     margin-bottom: 12px;
-  } ;
+  }
 `;
 
 export const Status = styled.span`
